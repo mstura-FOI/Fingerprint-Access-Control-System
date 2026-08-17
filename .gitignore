@@ -1,0 +1,48 @@
+# ============================================
+#  .gitignore za ProjektDiplomski
+#  (Backend .NET + FrontEnd RN + POE / ESP32)
+# ============================================
+
+*.key
+*.pfx
+device-ca.key
+sensor-*.key
+server.key
+server.pfx
+
+
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+!appsettings.Example.json
+
+**/config.h
+
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+dependencies.lock
+
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.log
+.env
+.env.*
+!.env.example
+
+
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+*.tmp

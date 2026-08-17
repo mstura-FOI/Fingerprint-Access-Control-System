@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": [
+        "packages/api/*"
+      ],
+      "@auth/*": [
+        "packages/auth/*"
+      ],
+      "@ui/*": [
+        "packages/ui/*"
+      ],
+      "@config/*": [
+        "packages/config/*"
+      ],
+      "@types/*": [
+        "packages/types/*"
+      ]
+    }
+  }
+}

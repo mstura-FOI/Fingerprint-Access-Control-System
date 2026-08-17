@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="FingerPrintSystem.Application/FingerPrintSystem.Application.csproj" />
+  <Project Path="FingerPrintSystem.Base/FingerPrintSystem.Base.csproj" />
+  <Project Path="FingerPrintSystem.Core/FingerPrintSystem.Core.csproj" />
+  <Project Path="FingerPrintSystem.Infrastructure/FingerPrintSystem.Infrastructure.csproj" />
+  <Project Path="FingerPrintSystem/FingerPrintSystem.WebApi.csproj" />
+</Solution>

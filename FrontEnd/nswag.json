@@ -1,0 +1,21 @@
+{
+  "runtime": "Net80",
+  "documentGenerator": {
+    "fromDocument": {
+      "url": "https://192.168.178.37:7137/swagger/v1/swagger.json"
+    }
+  },
+  "codeGenerators": {
+    "openApiToTypeScriptClient": {
+      "template": "Fetch",
+      "className": "{controller}Client",
+      "typeScriptVersion": 5.5,
+      "generateClientClasses": true,
+      "generateDtoTypes": true,
+      "generateClientInterfaces": false,
+      "promiseType": "Promise",
+      "useAbortSignal": true,
+      "output": "./packages/api/generated/api.ts"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["api/*"],
+      "@auth/*": ["auth/*"],
+      "@config/*": ["config/*"],
+      "@types/*": ["types/*"],
+      "@ui/*": ["ui/*"]
+    }
+  }
+}

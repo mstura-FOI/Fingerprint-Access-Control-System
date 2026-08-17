@@ -1,0 +1,19 @@
+{
+  "name": "fingerprintsystemfrontend",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "mobile": "npm run start --workspace=mobile",
+    "admin": "npm run start --workspace=admin",
+    "generate-api": "nswag run",
+    "install-all": "npm install"
+  },
+  "devDependencies": {
+    "nswag": "^14.7.1"
+  },
+  "dependencies": {
+    "expo-secure-store": "^57.0.1"
+  }
+}

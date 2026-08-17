@@ -1,0 +1,6 @@
+@FingerPrintSystem_HostAddress = http://localhost:5083
+
+GET {{FingerPrintSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
