@@ -1,6 +1,6 @@
 # FingerPrintSystem
 
-Biometric access control system built for a diploma thesis. Connects an AS608
+Biometric access control system built for a diploma thesis for that reason code comments are in Croatian. Connects an AS608
 fingerprint sensor and an ESP32 microcontroller with a central server
 (ASP.NET Core) and a mobile application (React Native).
 
