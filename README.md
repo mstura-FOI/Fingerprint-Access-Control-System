@@ -4,7 +4,7 @@ Biometric access control system built for a diploma thesis for that reason code 
 fingerprint sensor and an ESP32 microcontroller with a central server
 (ASP.NET Core) and a mobile application (React Native).
 
-> This is a public snapshot of the code. Active development repositories are private.
+> This is a public snapshot of the code on 18.08.2026. Active development repositories are private, for contributions contact me via email.
 
 ## Structure
 
