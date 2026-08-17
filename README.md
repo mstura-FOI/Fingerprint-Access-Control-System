@@ -10,7 +10,7 @@ fingerprint sensor and an ESP32 microcontroller with a central server
 
 - **Backend/** — ASP.NET Core (.NET) server, clean architecture, EF Core.
 - **FrontEnd/** — React Native application (admin and user).
-- **POE/** — ESP32 firmware (ESP-IDF, C) for the sensor and server communication.
+- **POE/** — ESP32 firmware (ESP-IDF, C) for the AS608 sensor and server communication.
 
 ## Note
 
